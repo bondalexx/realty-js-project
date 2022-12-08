@@ -1,0 +1,119 @@
+* {
+padding: 0;
+margin: 0;
+font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #FFFBD4;
+}
+
+/*--------------------------------------------------------*/
+/*                            HEADER                      */
+/*--------------------------------------------------------*/
+
+.header {
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-home-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 70%;
+}
+
+.header-icons-block {
+    padding: 0 0 0 40px;
+    display: flex;
+    gap: 50px;
+}
+
+.fa-house,
+.fa-lock,
+.fa-facebook,
+.fa-telegram,
+.fa-viber,
+.fa-whatsapp {
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.fa-house{
+    color: #c85108;
+}
+
+.fa-lock {
+    color: #a20e0e;
+}
+
+.header-slogan-block {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header-slogan-sign {
+    font-size: 40px;
+    color: #000;
+}
+
+.header-contacts-block {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+}
+
+.header-contacts-sign {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.header-contacts-icons-block {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.fa-facebook {
+    color: #1877F2;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.fa-viber {
+    color: #665CA7;
+}
+
+.fa-telegram {
+    color: #31A8E0;
+}
+.fa-whatsapp {
+    color: #2AB73F;
+}
+
+/*--------------------------------------------------------*/
+/*                            MAIN                        */
+/*--------------------------------------------------------*/
+
+.main-body {
+    height: 80%;
+}
+
+/*--------------------------------------------------------*/
+/*                            FOOTER                      */
+/*--------------------------------------------------------*/
+
+.footer {
+    height: 10%;    
+}
