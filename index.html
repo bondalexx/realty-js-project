@@ -12,25 +12,70 @@
     <header class="header">
         <div class="header-home-block">
             <div class="header-icons-block">
-                <i class="fa-solid fa-house"></i>
-                <i class="fa-solid fa-lock"></i>
+                <div class="header-icons-container">
+                    <i class="fa-solid fa-house"></i>
+                </div>
+                <div class="header-icons-container">
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+            
             </div>
                 <p class="header-slogan-sign">Нерухомість для життя та бізнесу</p>
         </div>
        
         <div class="header-contacts-block">
             <p class="header-contacts-sign">Контакти</p>
-            <di class="header-contacts-icons-block">
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-viber"></i>
-                <i class="fa-brands fa-telegram"></i>
-                <i class="fa-brands fa-whatsapp"></i>
-            </di>
+            <div class="header-contacts-icons-block">
+                <div class="header-icons-container">
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+                <div class="header-icons-container">
+                    <i class="fa-brands fa-viber"></i>
+                </div>
+                <div class="header-icons-container">
+                    <i class="fa-brands fa-telegram"></i>
+                </div class="header-icons-container">
+                <div class="header-icons-container">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+            </div>
            
         </div>
     </header>
     <main class="main-body">
-
+        <div class="main-body-filter-container">
+                <select name="areas" class="areas-select-filter">
+                    <option value="">Оберіть район</option>
+                    <option value="Odesa">Одеса</option>
+                    <option value="Prymorsk">Приморський</option>
+                    <option value="Kyivsky">Київський</option>
+                    <option value="Malynovsky">Маліновськй</option>
+                    <option value="Suvorovskiy">Суворовський</option>
+                </select>
+                <select name="number-of-rooms" class="number-of-rooms-filter">
+                    <option value="">Оберіть кіл. кімнат</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="greater-than-5">Більше 5</option>
+                </select>
+                <select name="type-of-bulding" class="type-of-building-filter">
+                    <option value="">Оберіть приміщення</option>
+                    <option value="simple-flat">Квратира</option>
+                    <option value="studio-flat">Квартира-студія</option>
+                    <option value="house">Будинок</option>
+                </select>
+                <input class="min-price-input" placeholder="Мін. ціна у $"/>
+                <input class="max-price-input" placeholder="Макс. ціна у $"/>
+                <div class="filter-search-button-container">
+                    <button class="filter-search-button">Пошук</button>
+                </div>
+              
+        </div>
+        <div class="main-body-cards-container"></div>
+      
     </main>
     <footer class="footer"></footer>
 

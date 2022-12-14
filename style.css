@@ -7,7 +7,7 @@ font-family: 'Montserrat', sans-serif;
 body {
     width: 100%;
     height: 100vh;
-    background-color: #FFFBD4;
+    background-color: #f4f3f0;
 }
 
 /*--------------------------------------------------------*/
@@ -18,6 +18,7 @@ body {
     height: 10%;
     display: flex;
     justify-content: space-between;
+    background-color: #0A3D33;
 }
 
 .header-home-block {
@@ -44,6 +45,16 @@ body {
     cursor: pointer;
 }
 
+.header-icons-container {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f3f0;
+    border-radius: 5px;
+}
+
 .fa-house{
     color: #c85108;
 }
@@ -62,7 +73,7 @@ body {
 
 .header-slogan-sign {
     font-size: 40px;
-    color: #000;
+    color: #f4f3f0;
 }
 
 .header-contacts-block {
@@ -76,6 +87,7 @@ body {
 .header-contacts-sign {
     font-size: 25px;
     font-weight: 600;
+    color: #f4f3f0;
 }
 
 .header-contacts-icons-block {
@@ -108,7 +120,89 @@ body {
 
 .main-body {
     height: 80%;
+    display: flex;
+    margin: 50px 0 0 0;
+    gap: 50px;
+    padding: 0 20px 0 20px;
+    
 }
+
+.main-body-filter-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-start;
+    padding:20px;
+    height: 400px;
+    width: 250px;
+    position: sticky;
+    top:50px;
+    background-color: #0A3D33;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.areas-select-filter,
+.number-of-rooms-filter,
+.type-of-building-filter,
+.min-price-input,
+.max-price-input {
+    border: none;
+    padding-left: 10px;
+    width: 220px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f4f3f0;
+    color: #0A3D33;
+}
+
+.min-price-input,
+.max-price-input {
+    width: 210px;
+}
+
+.filter-search-button-container {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 0 0 0 15px;
+}
+
+.filter-search-button {
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s;
+    cursor: pointer;
+    background-color: #0A3D33;
+    color: #f4f3f0;
+    border: 2px solid #f4f3f0;
+    border-radius: 5px;
+}
+
+.filter-search-button:hover {
+    background-color:  #f4f3f0 ;
+    color: #0A3D33;
+}
+
+.filter-search-button:active {
+    background-color: #DC935B;
+    color: #fff;
+}
+
+
+.main-body-cards-container {
+    width: calc(100% - 250px);
+    border: 5px solid #0A3D33;
+    border-radius: 10px;
+}
+
 
 /*--------------------------------------------------------*/
 /*                            FOOTER                      */
@@ -117,3 +211,4 @@ body {
 .footer {
     height: 10%;    
 }
+
